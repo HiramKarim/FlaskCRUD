@@ -16,6 +16,6 @@ class DevConfig(Config):
     TESTING = True
     SECRET_KEY = 'p9Bv<3Eid9%$i01'
     SQLALCHEMY_ECHO = True
-    SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://root:Terminator2027@localhost/dreamteam_db'
+    SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://*****:******@******/dreamteam_db'
     # SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://admin:HiramCastro20@waterstoredbdev.chfwbtrwgwjv.us-west-1.rds.amazonaws.com/waterstoredbdev'
     SQLALCHEMY_TRACK_MODIFICATIONS = False
