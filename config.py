@@ -2,8 +2,6 @@ class Config:
     """Base config."""
     STATIC_FOLDER = 'static'
     TEMPLATES_FOLDER = 'templates'
-
-    GOOGLE_MAPS_API_KEY_DEV = 'AIzaSyBf-bg2wFkeIY3v67UUbPJviS99pr3PGCo'
     
     
 class ProdConfig(Config):
